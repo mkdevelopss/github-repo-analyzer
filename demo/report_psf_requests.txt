@@ -1,0 +1,120 @@
+╭──────────────────────────────────────── GitHub Repository Analyzer ────────────────────────────────────────╮
+│ Repository           psf/requests  https://github.com/psf/requests                                         │
+│ Description          Not determined                                                                        │
+│ Stars / Forks        Not determined / Not determined                                                       │
+│ License              Not determined                                                                        │
+│ Default branch       main                                                                                  │
+│ Created / Last push  Not determined / 2026-10-26                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────── 1. Tech stack detected ──────────────────────────────────────────╮
+│ Languages                                                                                                  │
+│                                                                                                            │
+│   Language        Share                          Evidence                                                  │
+│  ────────────────────────────────────────────────────────────────────────────────                          │
+│   Python          99.6%   ████████████████████   407,127 bytes (GitHub Linguist)                           │
+│   other      <0.5% each                          HTML, CSS                                                 │
+│                                                                                                            │
+│ Frameworks, libraries & tools                                                                              │
+│                                                                                                            │
+│   Name                       Category        Evidence                                                      │
+│  ─────────────────────────────────────────────────────────────────────────────────────────                 │
+│   Sphinx                     Documentation   dependency 'Sphinx' in docs/requirements.txt                  │
+│   pytest                     Testing         dependency 'pytest' in requirements-dev.txt                   │
+│   Make                       Build tool      file Makefile                                                 │
+│   GitHub Actions             CI/CD           8 workflow files in .github/workflows/                        │
+│   pre-commit                 Code quality    file .pre-commit-config.yaml                                  │
+│   Read the Docs              Documentation   file .readthedocs.yaml                                        │
+│   pyproject.toml packaging   Packaging       file pyproject.toml                                           │
+│   setuptools                 Packaging       file setup.py                                                 │
+│   tox                        Testing         file tox.ini                                                  │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────── 2. File structure summary ─────────────────────────────────────────╮
+│ 130 files in 23 folders, 4.5 MB total; 37 source-code files; max folder depth 4                            │
+│ Most common file types: .py (37), .rst (16), (no extension) (15), .md (13), .yml (10), .png (5), .key (4), │
+│ .cnf (4)                                                                                                   │
+│                                                                                                            │
+│   Folder         Files       Size   Main file types                     Purpose                            │
+│  ────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│   tests/            42   198.7 KB   .py (15), (no extension) (8),       Tests                              │
+│                                     .key (4)                                                               │
+│   docs/             26   437.2 KB   .rst (15), (no extension) (2),      Documentation                      │
+│                                     .py (2)                                                                │
+│   src/              20   216.1 KB   .py (19), .typed (1)                Main source code                   │
+│   .github/          19    25.6 KB   .yml (10), .md (8), (no             GitHub settings (CI workflows,     │
+│                                     extension) (1)                      templates)                         │
+│   ext/               7     3.5 MB   .png (4), (no extension) (1), .ai   Extensions                         │
+│                                     (1)                                                                    │
+│   (root files)      16              .coveragerc,                        Project-level config & docs        │
+│                                     .git-blame-ignore-revs,                                                │
+│                                     .gitignore,                                                            │
+│                                     .pre-commit-config.yaml,                                               │
+│                                     .readthedocs.yaml, AUTHORS.rst                                         │
+│                                     ...                                                                    │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 3. Code complexity score ─────────────────────────────────────────╮
+│ Score: 37/100 (Moderate)  ███████░░░░░░░░░░░░░                                                             │
+│ Main reasons: Code volume: 407 KB of source code; Source files: 37 source files                            │
+│                                                                                                            │
+│   Signal               Measured                             Points                                         │
+│  ──────────────────────────────────────────────────────────────────                                        │
+│   Source files         37 source files                   13.2 / 25                                         │
+│   Code volume          407 KB of source code             13.1 / 20                                         │
+│   Folder depth         max depth 4 levels                 6.0 / 15                                         │
+│   Languages            1 language(s) with >=0.5% share    0.0 / 15                                         │
+│   Dependencies         13 declared dependencies           2.0 / 15                                         │
+│   Large source files   1 source file(s) over 100 KB       2.7 / 10                                         │
+│                                                                                                            │
+│ How it is calculated: each signal is scaled to 0-1 and capped (source files and code volume on a log       │
+│ scale), then multiplied by its weight. Bands: 0-24 Low, 25-49 Moderate, 50-74 High, 75-100 Very high. This │
+│ measures structural size and spread, not per-function (cyclomatic) complexity.                             │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────── 4. Dependency health ───────────────────────────────────────────╮
+│ Manifests read: pyproject.toml, requirements-dev.txt, docs/requirements.txt                                │
+│ 13 dependencies: 0 healthy, 13 with warnings, 0 not checked -> 0% healthy of those checked                 │
+│ Issues: 11 unpinned, 1 outdated (behind a major version), 2 unmaintained (no release in 2+ years)          │
+│                                                                                                            │
+│   Package              Spec               Latest       Last release   Status    Issues / note              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────    │
+│   certifi              >=2023.5.7         2026.10.23   2026-10-23     warning   unpinned                   │
+│   charset_normalizer   >=2,<4             3.5.2        2026-09-30     warning   unpinned                   │
+│   httpbin              ~=0.10.0           0.10.4       2026-06-16     warning   unpinned                   │
+│   idna                 >=2.5,<4           3.20         2026-09-17     warning   unpinned                   │
+│   pytest               >=2.8.0,<10        9.2.0        2026-10-27     warning   unpinned                   │
+│   pytest-cov           (any)              7.1.0        2026-03-21     warning   unpinned                   │
+│   pytest-httpbin       ==2.1.0            2.1.0        2024-09-18     warning   unmaintained               │
+│   Sphinx               ==7.2.6            9.2.0        2026-10-21     warning   outdated                   │
+│   trustme              (any)              1.2.1        2025-01-02     warning   unpinned                   │
+│   urllib3              >=1.26,<3          2.8.0        2026-09-15     warning   unpinned                   │
+│   wheel                (any)              0.48.0       2026-08-11     warning   unpinned                   │
+│   chardet (dev)        >=3.0.2,<8         7.7.0        2026-10-18     warning   unpinned                   │
+│   PySocks (dev)        >=1.5.6, !=1.5.7   1.7.1        2019-09-20     warning   unpinned, unmaintained     │
+│                                                                                                            │
+│ Healthy = pinned to an exact version AND on the latest major version AND released within the last 2 years. │
+│ Latest versions come from PyPI / npm.                                                                      │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 5. Contribution activity ─────────────────────────────────────────╮
+│ Commits per week, last 26 weeks (default branch): 49 commits, active in 18/26 weeks                        │
+│   17 ┤█                                                                                                    │
+│      │█                                                                                                    │
+│      │█                                                                                                    │
+│      │█                                                                                                    │
+│      │█                                                                                                    │
+│      │█       ▆                                                                                            │
+│      │█ ▃   ▃ █   ▃                                                                                        │
+│      │█ █   █ █ ▃ █ ▃ ▃ ▇ ▇ ▇ ▃ ▃ ▃ ▇ ▃     ▃         ▃                                                    │
+│      └────────────────────────────────────────────────────                                                 │
+│       May   Jun     Jul       Aug     Sep     Oct       Nov                                                │
+│ Busiest week: starting 2026-05-14 with 17 commits                                                          │
+│                                                                                                            │
+│   Top contributors (all time)          Commits   Most active (last 26 weeks)         Commits               │
+│  ────────────────────────────────────────────────────────────────────────────────────────────              │
+│   dependabot (bot)               21 ▇▇▇▇▇▇▇▇▇▇   dependabot (bot)              20 ▇▇▇▇▇▇▇▇▇▇               │
+│   Nate Prewitt                   20 ▇▇▇▇▇▇▇▇▇▇   Nate Prewitt                    17 ▇▇▇▇▇▇▇▇               │
+│   Joren Hammudoglu                         3 ▇   Joren Hammudoglu                       3 ▇▇               │
+│   Dimitri Papadopoulos Orfanos             2 ▇   yamac-kurtulus                          1 ▇               │
+│   Yamac                                    1 ▇   Loïc Pernod                             1 ▇               │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Generated 2026-11-05 11:19 | GitHub API requests used: 8

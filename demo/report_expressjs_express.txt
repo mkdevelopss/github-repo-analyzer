@@ -1,0 +1,130 @@
+╭──────────────────────────────────────── GitHub Repository Analyzer ────────────────────────────────────────╮
+│ Repository           expressjs/express  https://github.com/expressjs/express                               │
+│ Description          Not determined                                                                        │
+│ Stars / Forks        Not determined / Not determined                                                       │
+│ License              Not determined                                                                        │
+│ Default branch       master                                                                                │
+│ Created / Last push  Not determined / 2026-11-02                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────── 1. Tech stack detected ──────────────────────────────────────────╮
+│ Languages                                                                                                  │
+│                                                                                                            │
+│   Language          Share                          Evidence                                                │
+│  ──────────────────────────────────────────────────────────────────────────────────                        │
+│   JavaScript        98.8%   ████████████████████   564,484 bytes (GitHub Linguist)                         │
+│   EJS                0.9%   █                      5,281 bytes (GitHub Linguist)                           │
+│   other        <0.5% each                          HTML, CSS                                               │
+│                                                                                                            │
+│ Frameworks, libraries & tools                                                                              │
+│                                                                                                            │
+│   Name             Category   Evidence                                                                     │
+│  ────────────────────────────────────────────────────────────────────                                      │
+│   ESLint           Linting    devDependency 'eslint' in package.json                                       │
+│   Mocha            Testing    devDependency 'mocha' in package.json                                        │
+│   GitHub Actions   CI/CD      5 workflow files in .github/workflows/                                       │
+│   ESLint config    Linting    file .eslintrc.yml                                                           │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────── 2. File structure summary ─────────────────────────────────────────╮
+│ 216 files in 68 folders, 726.8 KB total; 142 source-code files; max folder depth 5                         │
+│ Most common file types: .js (142), .ejs (21), .txt (10), .html (8), .yml (7), .tmpl (7), .md (4), .css (4) │
+│                                                                                                            │
+│   Folder         Files       Size   Main file types                     Purpose                            │
+│  ────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│   test/            113   453.4 KB   .js (92), .txt (7), .tmpl (7)       Tests                              │
+│   examples/         79    59.3 KB   .js (43), .ejs (20), .css (4)       Example usage                      │
+│   .github/           6    14.9 KB   .yml (6)                            GitHub settings (CI workflows,     │
+│                                                                         templates)                         │
+│   lib/               6    62.1 KB   .js (6)                             Library source code                │
+│   "examples/         1     0.0 KB   .txt" (1)                           Not determined (no standard        │
+│                                                                         folder-name convention)            │
+│   "test/             1     0.0 KB   .gitkeep" (1)                       Not determined (no standard        │
+│                                                                         folder-name convention)            │
+│   (root files)      10              .editorconfig, .eslintignore,       Project-level config & docs        │
+│                                     .eslintrc.yml, .gitignore,                                             │
+│                                     .npmrc, History.md ...                                                 │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 3. Code complexity score ─────────────────────────────────────────╮
+│ Score: 49/100 (Moderate)  ██████████░░░░░░░░░░                                                             │
+│ Main reasons: Source files: 142 source files; Code volume: 564 KB of source code                           │
+│                                                                                                            │
+│   Signal               Measured                             Points                                         │
+│  ──────────────────────────────────────────────────────────────────                                        │
+│   Source files         142 source files                  18.0 / 25                                         │
+│   Code volume          564 KB of source code             13.8 / 20                                         │
+│   Folder depth         max depth 5 levels                 7.5 / 15                                         │
+│   Languages            2 language(s) with >=0.5% share    3.0 / 15                                         │
+│   Dependencies         44 declared dependencies           6.6 / 15                                         │
+│   Large source files   0 source file(s) over 100 KB       0.0 / 10                                         │
+│                                                                                                            │
+│ How it is calculated: each signal is scaled to 0-1 and capped (source files and code volume on a log       │
+│ scale), then multiplied by its weight. Bands: 0-24 Low, 25-49 Moderate, 50-74 High, 75-100 Very high. This │
+│ measures structural size and spread, not per-function (cyclomatic) complexity.                             │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────── 4. Dependency health ───────────────────────────────────────────╮
+│ Manifests read: package.json                                                                               │
+│ 44 dependencies: 3 healthy, 41 with warnings, 0 not checked -> 7% healthy of those checked                 │
+│ Issues: 36 unpinned, 12 outdated (behind a major version), 15 unmaintained (no release in 2+ years)        │
+│                                                                                                            │
+│   Package               Spec      Latest   Last release   Status    Issues / note                          │
+│  ──────────────────────────────────────────────────────────────────────────────────────────                │
+│   accepts               ^2.0.0    2.0.0    2024-08-31     warning   unpinned, unmaintained                 │
+│   body-parser           ^2.4.0    2.4.0    2026-10-22     warning   unpinned                               │
+│   content-disposition   ^2.0.1    3.0.0    2026-08-13     warning   unpinned, outdated                     │
+│   content-type          ^2.0.0    3.1.1    2026-09-17     warning   unpinned, outdated                     │
+│   cookie                ^0.7.1    2.0.1    2026-06-30     warning   unpinned, outdated                     │
+│   cookie-signature      ^1.2.1    1.2.2    2024-10-29     warning   unpinned, unmaintained                 │
+│   debug                 ^4.4.0    4.4.3    2025-09-13     warning   unpinned                               │
+│   depd                  ^2.0.0    2.0.0    2018-10-26     warning   unpinned, unmaintained                 │
+│   encodeurl             ^2.0.0    3.0.0    2026-10-29     warning   unpinned, outdated                     │
+│   escape-html           ^1.0.3    1.0.3    2015-09-01     warning   unpinned, unmaintained                 │
+│   etag                  ^1.8.1    1.8.1    2017-09-13     warning   unpinned, unmaintained                 │
+│   finalhandler          ^2.1.0    2.1.1    2025-12-01     warning   unpinned                               │
+│   fresh                 ^2.0.0    2.0.0    2024-09-04     warning   unpinned, unmaintained                 │
+│   http-errors           ^2.0.0    2.0.1    2025-11-20     warning   unpinned                               │
+│   merge-descriptors     ^2.0.0    2.0.0    2023-11-16     warning   unpinned, unmaintained                 │
+│   mime-types            ^3.0.0    3.0.2    2025-11-20     warning   unpinned                               │
+│   on-finished           ^2.4.1    2.4.2    2026-10-22     warning   unpinned                               │
+│   once                  ^1.4.0    1.4.0    2016-09-06     warning   unpinned, unmaintained                 │
+│   parseurl              ^1.3.3    1.3.3    2019-04-16     warning   unpinned, unmaintained                 │
+│   proxy-addr            ^2.0.8    2.0.8    2026-09-15     warning   unpinned                               │
+│   qs                    ^6.16.0   6.17.1   2026-10-28     warning   unpinned                               │
+│   range-parser          ^1.2.1    1.3.0    2026-06-25     warning   unpinned                               │
+│   router                ^2.2.0    2.2.0    2025-03-27     warning   unpinned                               │
+│   send                  ^1.1.0    1.2.1    2025-12-15     warning   unpinned                               │
+│   serve-static          ^2.2.0    2.2.1    2025-12-15     warning   unpinned                               │
+│   statuses              ^2.0.1    2.0.2    2025-06-06     warning   unpinned                               │
+│   type-is               ^2.1.0    3.0.0    2026-09-21     warning   unpinned, outdated                     │
+│   vary                  ^1.1.2    1.1.2    2017-09-24     warning   unpinned, unmaintained                 │
+│   after (dev)           0.8.2     0.8.2    2016-08-16     warning   unmaintained                           │
+│   connect-redis (dev)   ^8.0.1    10.0.0   2026-07-24     warning   unpinned, outdated                     │
+│   +14 more                                                                                                 │
+│                                                                                                            │
+│ Healthy = pinned to an exact version AND on the latest major version AND released within the last 2 years. │
+│ Latest versions come from PyPI / npm.                                                                      │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 5. Contribution activity ─────────────────────────────────────────╮
+│ Commits per week, last 26 weeks (default branch): 45 commits, active in 14/26 weeks                        │
+│    7 ┤          █                                                                                          │
+│      │          █                                                                                          │
+│      │  ▅       █                   ▅                                                                      │
+│      │  █       █                   █   ▄       ▄ ▄                                                        │
+│      │  █       █     ▃             █   █ ▃   ▃ █ █     ▃                                                  │
+│      │  █       █     █             █   █ █   █ █ █     █                                                  │
+│      │  █       █     █ ▁   ▁       █   █ █   █ █ █ ▁ ▁ █                                                  │
+│      │  █       █     █ █   █       █   █ █   █ █ █ █ █ █                                                  │
+│      └────────────────────────────────────────────────────                                                 │
+│       May   Jun     Jul       Aug     Sep     Oct       Nov                                                │
+│ Busiest week: starting 2026-06-18 with 7 commits                                                           │
+│                                                                                                            │
+│   Top contributors (all time)         Commits   Most active (last 26 weeks)         Commits                │
+│  ───────────────────────────────────────────────────────────────────────────────────────────               │
+│   dependabot (bot)              18 ▇▇▇▇▇▇▇▇▇▇   dependabot (bot)              18 ▇▇▇▇▇▇▇▇▇▇                │
+│   Lazizbek Ergashev                       2 ▇   Lazizbek Ergashev                       2 ▇                │
+│   Ulises Gascón                           2 ▇   Ulises Gascón                           2 ▇                │
+│   Blake Embrey                            2 ▇   Blake Embrey                            2 ▇                │
+│   Bhavya Dhiman                           1 ▇   Bhavya Dhiman                           1 ▇                │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Generated 2026-11-05 11:19 | GitHub API requests used: 6

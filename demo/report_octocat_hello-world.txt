@@ -1,0 +1,66 @@
+╭──────────────────────────────────────── GitHub Repository Analyzer ────────────────────────────────────────╮
+│ Repository           octocat/Hello-World  https://github.com/octocat/Hello-World                           │
+│ Description          Not determined                                                                        │
+│ Stars / Forks        Not determined / Not determined                                                       │
+│ License              Not determined                                                                        │
+│ Default branch       master                                                                                │
+│ Created / Last push  Not determined / 2012-03-06                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────── 1. Tech stack detected ──────────────────────────────────────────╮
+│ Languages                                                                                                  │
+│                                                                                                            │
+│   Language         Share                          Evidence                                                 │
+│  ────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│   Not determined                                  GitHub reports no language data (empty or non-code       │
+│                                                   repo)                                                    │
+│                                                                                                            │
+│ Frameworks, libraries & tools                                                                              │
+│                                                                                                            │
+│   Name             Category   Evidence                                                                     │
+│  ────────────────────────────────────────────────────────────────────────────────────────                  │
+│   Not determined              No known framework dependencies or tool config files found                   │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────── 2. File structure summary ─────────────────────────────────────────╮
+│ 1 file in 0 folders, 0.0 KB total; 0 source-code files; max folder depth 0                                 │
+│ Most common file types: (no extension) (1)                                                                 │
+│                                                                                                            │
+│   Folder         Files   Size   Main file types   Purpose                                                  │
+│  ─────────────────────────────────────────────────────────────────────────────                             │
+│   (root files)       1          README            Project-level config & docs                              │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 3. Code complexity score ─────────────────────────────────────────╮
+│ Score: 0/100 (Low)  ░░░░░░░░░░░░░░░░░░░░                                                                   │
+│ Main reasons: small, simple repository                                                                     │
+│                                                                                                            │
+│   Signal               Measured                            Points                                          │
+│  ─────────────────────────────────────────────────────────────────                                         │
+│   Source files         0 source files                    0.0 / 25                                          │
+│   Code volume          0 KB of source code               0.0 / 20                                          │
+│   Folder depth         max depth 0 levels                0.0 / 15                                          │
+│   Languages            0 language(s) with >=0.5% share   0.0 / 15                                          │
+│   Dependencies         0 declared dependencies           0.0 / 15                                          │
+│   Large source files   0 source file(s) over 100 KB      0.0 / 10                                          │
+│                                                                                                            │
+│ How it is calculated: each signal is scaled to 0-1 and capped (source files and code volume on a log       │
+│ scale), then multiplied by its weight. Bands: 0-24 Low, 25-49 Moderate, 50-74 High, 75-100 Very high. This │
+│ measures structural size and spread, not per-function (cyclomatic) complexity.                             │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────── 4. Dependency health ───────────────────────────────────────────╮
+│ No supported dependency manifest found (requirements*.txt, pyproject.toml, package.json). Dependency       │
+│ health: Not determined.                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────── 5. Contribution activity ─────────────────────────────────────────╮
+│ Commits per week, last 26 weeks (default branch): 0 commits, active in 0/26 weeks                          │
+│ (no commits in this period)                                                                                │
+│ No commits in the last 26 weeks. Last push to the repository: 2012-03-06.                                  │
+│                                                                                                            │
+│   Top contributors (all time)        Commits   Most active (last 26 weeks)   Commits                       │
+│  ────────────────────────────────────────────────────────────────────────────────────                      │
+│   The Octocat                   1 ▇▇▇▇▇▇▇▇▇▇                                                               │
+│   Johnneylee Jack Rollins       1 ▇▇▇▇▇▇▇▇▇▇                                                               │
+│   cameronmcefee                 1 ▇▇▇▇▇▇▇▇▇▇                                                               │
+│                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Generated 2026-11-05 11:19 | GitHub API requests used: 5
